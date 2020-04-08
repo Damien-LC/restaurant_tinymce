@@ -62,6 +62,12 @@ if (!empty($_POST)) {
             width: 300px;
         }
     </style>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea'
+        });
+    </script>
 </head>
 
 <body>
@@ -94,6 +100,7 @@ if (!empty($_POST)) {
 
         <button type="submit">Envoyer</button>
     </form>
+    <textarea>Next, use our Get Started docs to setup Tiny!</textarea>
 </body>
 
 </html>
